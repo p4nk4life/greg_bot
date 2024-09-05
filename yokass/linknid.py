@@ -2,8 +2,8 @@ from yookassa.configuration import Configuration
 from yookassa.payment import Payment
 import uuid
 
-Configuration.account_id = '427451'
-Configuration.secret_key = 'live__Cc8KKjZ-nRx3TeU4Q2RkvI-0caSqxP-IRUc6h_vKDY'
+Configuration.account_id = ''
+Configuration.secret_key = ''
 
 def create(amount, chat_id):
     id_key = str(uuid.uuid4())
