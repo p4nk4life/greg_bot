@@ -19,7 +19,7 @@ from states.main_states import Main
 from database.db import get_all_tg_ids, set_time_sub, add_user, get_sub_status
 from yokass.linknid import check, create
 
-TOKEN = "7239822620:AAHROpIE3EGdB3iOIfywnDEq6RLGBkZAW0M"
+TOKEN = ""
 
 # All handlers should be attached to the Router (or Dispatcher)
 
